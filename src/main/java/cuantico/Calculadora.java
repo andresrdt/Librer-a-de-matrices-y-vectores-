@@ -37,11 +37,11 @@ public class Calculadora {
         NumeroComplejo nc = new NumeroComplejo(a.getpReal(),-a.getpImg());
         return nc;
     }
-    public static NumeroPolar cartesianaAPolar(NumeroComplejo a){
-        double radio = modulo(a);
-        double rads = Math.atan(a.getpImg()/a.getpReal());
-        NumeroPolar np= new NumeroPolar(Math.toDegrees(rads),radio); 
-        return np;
+    public static String cartesianaAPolar(NumeroComplejo c1){
+        double p = Math.sqrt(Math.pow(c1.getpReal(), 2) + Math.pow(c1.getpImg(), 2));
+        double t = Math.atan2(c1.getpImg(), c1.getpReal());
+        DecimalFormat df = new DecimalFormat("#.##");
+        return "(" + df.format(p) + ", " + df.format(t) + ")";
     }
     
     public static  NumeroComplejo polarACartesiana(double p, double t){

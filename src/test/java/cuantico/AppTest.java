@@ -76,8 +76,8 @@ public class AppTest
     public void CartesianoPolar()
     {
         NumeroComplejo c1 = new NumeroComplejo(1, 1);
-        String expected = "(1,41, 0,79)";
-        NumeroPolar result = Calculadora.cartesianaAPolar(c1);
+        String expected = "(1.41, 0.79)";
+        String result = Calculadora.cartesianaAPolar(c1);
         assertEquals(expected, result);
     }
     @Test
