@@ -16,5 +16,22 @@ esta aplicación permite realizar las siguientes operaciones sobre los numeros c
 
 **Descarga**
 ```
-$ git clone 
+$ git clone https://github.com/andresrdt/computacion-cuantica.git
+```
+**Entra a la Capeta**
+```
+$ cd QuantumComputingLibrary
+```
+
+**Compila**
+```
+$ mvn clean compile
+```
+**Packing**
+```
+$ mvn package
+```
+**tests**
+```
+$ mvn test
 ```
