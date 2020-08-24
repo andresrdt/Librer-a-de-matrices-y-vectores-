@@ -1,6 +1,6 @@
-# computacion-cuantica
+# Libreria de matrices y vectores
 
-### Operaciones entre numeros complejos 
+### Operaciones entre matrices y vectores
 
 esta aplicación permite realizar las siguientes operaciones sobre los numeros complejos
 
@@ -28,7 +28,7 @@ $ git clone https://github.com/andresrdt/Librer-a-de-matrices-y-vectores-.git
 ```
 **Entra a la Capeta**
 ```
-$ cd computacion-cuantica
+$ cd Librer-a-de-matrices-y-vectores-
 ```
 
 **Compila**
